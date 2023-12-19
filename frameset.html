@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+</head>
+<body>
+<frameset cols="20%, 30%, 50%">
+    <!-- First Frame - Logo and College Name with Link -->
+    <frame>
+        <!-- College Logo and Name with Link to College Website -->
+    <a href="https://www.collegewebsite.com" target="_blank">
+        <img src="college_logo.png" alt="College Logo" width="150">
+        College Name
+    </a>
+    
+    <!-- Second Frame - Login and Registration Link -->
+    <frame>
+        <!-- Links to Login and Registration Pages -->
+    <a href="login.html" target="booksFrame">Login</a> |
+    <a href="registration.html" target="booksFrame">Register</a>
+    
+    <!-- Third Frame - Books and Descriptions -->
+    <frame src="books.html" name="booksFrame">
+        <!-- Book List and Descriptions -->
+    <h2>Book List</h2>
+    <ul>
+        <li>
+            <strong>Title:</strong> Book 1<br>
+            <strong>Author:</strong> Author 1<br>
+            <strong>Description:</strong> Description for Book 1.
+        </li>
+        <li>
+            <strong>Title:</strong> Book 2<br>
+            <strong>Author:</strong> Author 2<br>
+            <strong>Description:</strong> Description for Book 2.
+        </li>
+        <!-- Add more books as needed -->
+    </ul>
+</frameset>
+    </body>
+</html>
