@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 10;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Element Selector */
+        h1 {
+            color: #000000;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: #efe26c;
+        }
+
+        /* ID Selector */
+        #special-text {
+            text-decoration: underline;
+        }
+
+        /* Attribute Selector */
+        a:hover {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selector Demo</h1>
+
+    <p class="highlight">This paragraph has a background color using a class selector.</p>
+
+    <p id="special-text">This paragraph has a underline using an ID selector.</p>
+
+    <p><a href="https://www.example.com" target="_blank">
+        This link changes its color on hovering using an attribute selector.</a></p>
+</body>
+</html>
