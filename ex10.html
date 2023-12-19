@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS validation</title>
+</head>
+<body style="text-align: center;">
+    <h1>Enter your details:</h1>
+    <form>
+        <label id="Email">E-mail:
+            <input type="email" pattern=".+@gmail\.com" size="20" required placeholder="name@domain.com"><br><br>
+        </label>
+        <label id="Phone Number">Phone number:
+            <input type="tel" pattern="[0-9]{10}" required><br><br>
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
