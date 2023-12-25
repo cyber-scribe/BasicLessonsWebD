@@ -8,12 +8,12 @@
 </head>
 <body style="text-align: center;">
     <h1>Enter your details:</h1>
-    <form>
+    <form onsubmit="return validateForm()">
         <label id="Name:">Name:
-            <input type="Name:" required ><br><br>
+            <input type="Name:" id="name" ><br><br>
         </label>
         <label id="Password">Password:
-            <input type="password"required><br><br>
+            <input type="password" id="password" ><br><br>
         </label>
         <input type="submit" value="Submit">
     </form>
